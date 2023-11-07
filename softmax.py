@@ -14,3 +14,5 @@ mnist_test = torchvision.datasets.FashionMNIST(
     root="../data", train=False, transform=trans, download=True)
 print(len(mnist_train), len(mnist_test))
 print(mnist_train[0][0].shape)
+
+print('a')
